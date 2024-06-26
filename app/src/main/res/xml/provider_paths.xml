@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+    <external-path
+        name="beta_external_files_path"
+        path="Android/data/" />
+
+    <cache-path
+        name="internal"
+        path="photo" />
+
+    <external-path
+        name="external"
+        path="DCIM/Camera" />
+
+    <external-path
+        name="update"
+        path="removeWM/" />
+
+    <external-path
+        name="external_files"
+        path="." />
+
+    <root-path name="root" path="." />
+    <!-- context.getFilesDir() -->
+    <files-path name="files" path="." />
+    <!-- context.getCacheDir() -->
+    <cache-path name="cache" path="." />
+    <!-- context.getExternalFilesDirs() -->
+    <external-files-path name="name" path="path" />
+    <!-- context.getExternalCacheDirs() -->
+    <external-cache-path name="name" path="path" />
+    <!-- Environment.getExternalStorageDirectory() -->
+    <external-path name="external" path="." />
+
+
+</paths>

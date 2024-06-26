@@ -1,0 +1,36 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        jcenter()
+        maven { url 'https://repo1.maven.org/maven2/' }
+        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://maven.aliyun.com/repository/public/'
+        }
+
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        mavenLocal()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://repo1.maven.org/maven2/' }
+        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://maven.aliyun.com/repository/public/'
+        }
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "tech"
+include ':app'
+include ':kernel-ime'
+include ':IMEengine'
